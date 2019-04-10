@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8">
+<meta name="author" content="Lidiane, Ronald Wilker">
+<head>
+<style type="text/css"></style>
+	<title>Atividade For</title>
+</head>
+<body>
+ <h1>Criando Formas</h1>
+
+	<button id="quadrado" onclick="quadrado()">Quadrado</button> 
+	<button id="retangulo" onclick="retangulo()">Retangulo</button>
+	<button id="triangulo" onclick="triangulo()">Triangulo</button>
+	<button id="circulo" onclick="circulo()">Circulo</button>
+
+	<div id="resultadoqua"></div>
+	<div id="resultadoret"></div>
+	<div id="resultadotri"></div>
+	<div id="resultadocir"></div>
+
+</body>
+<script type="text/javascript">
+
+function quadrado(){
+		var q = ''
+	for (var i = 0; i < 5; i++) {
+		for (var j = 0; j < 5; j++){
+			q += '*'
+		}
+
+		q += '<br/>'
+	}
+	document.getElementById('resultadoqua').innerHTML = q
+}
+
+function retangulo(){
+		var r = ''
+	for (var l = 0; l < 4; l++) {
+		for (var c = 0; c < 12; c++){
+			r += '*'
+		}
+
+		r += '<br/>'
+	}
+	document.getElementById('resultadoret').innerHTML = r
+}
+
+function triangulo(){
+		var t = ''
+	
+}
+
+function circulo(){
+		var ci = ''
+	
+}
+
+
+</script>
+</html>
